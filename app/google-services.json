@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002780217851",
+    "firebase_url": "https://politicsteens.firebaseio.com",
+    "project_id": "politicsteens",
+    "storage_bucket": "politicsteens.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002780217851:android:bd29e6c037509a58",
+        "android_client_info": {
+          "package_name": "kr.hs.e_mirim.politicsteens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002780217851-3jsgc7ibt4phu7di1c2ag5nba2bvtcmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.hs.e_mirim.politicsteens",
+            "certificate_hash": "9566cef140d1c786cd8fb129acf16c9e982b4f55"
+          }
+        },
+        {
+          "client_id": "1002780217851-aj7mje2njoj6t7a339ck3smjr0297chd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARbgEcRWHnCAQ_rGXY9gikSdBx5arAe-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002780217851-aj7mje2njoj6t7a339ck3smjr0297chd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
