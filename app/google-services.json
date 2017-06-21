@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "339420204124",
+    "firebase_url": "https://teenspolitics-1c42d.firebaseio.com",
+    "project_id": "teenspolitics-1c42d",
+    "storage_bucket": "teenspolitics-1c42d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339420204124:android:e29ce7dbffabed2d",
+        "android_client_info": {
+          "package_name": "teenspolitics.android.com.teenspolitics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339420204124-ou8iu6ne5n40qtnugnqaedj99k4rfl40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrftThxDZW8LPwGYH2S3ay7l6HR0XVPcs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339420204124:android:bd29e6c037509a58",
+        "android_client_info": {
+          "package_name": "kr.hs.e_mirim.politicsteens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339420204124-bnqloe42rp1u6605gclkagd3ghnmq4vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.hs.e_mirim.politicsteens",
+            "certificate_hash": "fb0db25216095383192a8fc18c8b1c4f34d79893"
+          }
+        },
+        {
+          "client_id": "339420204124-ou8iu6ne5n40qtnugnqaedj99k4rfl40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrftThxDZW8LPwGYH2S3ay7l6HR0XVPcs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339420204124-ou8iu6ne5n40qtnugnqaedj99k4rfl40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

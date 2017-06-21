@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="kr.hs.e_mirim.politicsteens.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="@drawable/today_issue" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType="fitXY"
+                android:layout_weight="1.09"></android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary">
+
+                <VideoView
+                    android:layout_gravity="center"
+                    android:id="@+id/video_View"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    />
+            </LinearLayout>
+
+
+
+            <!--<ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="196dp"
+                android:background="@drawable/news"
+                />-->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:background="@drawable/popular"
+                android:layout_weight="1.90" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <ListView
+                        android:id="@+id/listview"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp">
+
+                    </ListView>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
